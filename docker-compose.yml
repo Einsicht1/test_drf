@@ -1,9 +1,9 @@
 version: "3"
 services:
-    app:
+    app: 
         build:
             context: .
-        ports:
+        ports: 
             - "8000:8000"
         volumes:
             - ./app:/app
@@ -24,6 +24,4 @@ services:
             - POSTGRES_DB=app
             - POSTGRES_USER=postgres
             - POSTGRES_PASSWORD=supersecretpassword
-
-
 
